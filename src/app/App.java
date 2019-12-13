@@ -84,4 +84,12 @@ public class App {
         // test("mario.getIsInvulnerable()", mario.getIsInvulnerable(), false);
         // test("mario.getLives()", mario.getLives(), 2);
     }
+
+    private static boolean isEqual(Object value1, Object value2) {
+        if (value1 == value2) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
