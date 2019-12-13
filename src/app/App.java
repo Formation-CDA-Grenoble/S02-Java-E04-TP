@@ -86,10 +86,6 @@ public class App {
     }
 
     private static boolean isEqual(Object value1, Object value2) {
-        if (value1 == value2) {
-            return true;
-        } else {
-            return false;
-        }
+        return value1 == value2;
     }
 }
