@@ -93,4 +93,12 @@ public class App {
         System.out.println("Créons Mario avec 3 vies...");
         return new Character();
     }
+
+    private static void test(String call, Object actualValue, Object expectedValue) {
+        if (isEqual(actualValue, expectedValue)) {
+            System.out.println("L'appel " + call + " renvoie: " + actualValue +". (valeur attendue: " + expectedValue + ") C'est bon! ☑️");
+        } else {
+            System.out.println("L'appel " + call + " renvoie: " + actualValue +". (valeur attendue: " + expectedValue + ") Encore un coup des Illuminati... ❔");
+        }
+    }
 }
