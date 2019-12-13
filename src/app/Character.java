@@ -3,11 +3,24 @@ package app;
 class Character {
     private int lives = 3;
     private boolean isBig;
+    private boolean isInvulnerable;
 
     public Character() { }
 
     public Character(int lives) {
         this.lives = lives;
+    }
+
+    public boolean getIsInvulnerable() {
+        return isInvulnerable;
+    }
+
+    public void pickUpStar() {
+        isInvulnerable = true;
+    }
+
+    public void invulnerableWearsOff() {
+        isInvulnerable = false;
     }
 
     public boolean getIsBig() {
@@ -19,6 +32,9 @@ class Character {
     }
 
     public void takeHit() {
+        if (isInvulnerable) {
+            return;
+        }
         if (isBig) {
             isBig = false;
         } else {
