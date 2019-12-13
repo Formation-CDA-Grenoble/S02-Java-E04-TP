@@ -21,21 +21,21 @@ public class App {
         * =====================================================================
         * Décommente le code ci-dessous lorsque tu atteins cette partie
         */
-        // mario = createCharacter();
-        // System.out.println("Ajoutons une vie à Mario...");
-        // mario.addLife();
-        // test("mario.getLives()", mario.getLives(), 4);
-        // test("mario.hasLives()", mario.hasLives(), true);
-        // System.out.println("Puis faisons-lui en perdre une...");
-        // mario.loseLife();
-        // test("mario.getLives()", mario.getLives(), 3);
-        // test("mario.hasLives()", mario.hasLives(), true);
-        // System.out.println("Maintenant, on lui en prend 3...");
-        // mario.loseLife();
-        // mario.loseLife();
-        // mario.loseLife();
-        // test("mario.getLives()", mario.getLives(), 0);
-        // test("mario.hasLives()", mario.hasLives(), false);
+        mario = createCharacter();
+        System.out.println("Ajoutons une vie à Mario...");
+        mario.addLife();
+        test("mario.getLives()", mario.getLives(), 4);
+        test("mario.hasLives()", mario.hasLives(), true);
+        System.out.println("Puis faisons-lui en perdre une...");
+        mario.loseLife();
+        test("mario.getLives()", mario.getLives(), 3);
+        test("mario.hasLives()", mario.hasLives(), true);
+        System.out.println("Maintenant, on lui en prend 3...");
+        mario.loseLife();
+        mario.loseLife();
+        mario.loseLife();
+        test("mario.getLives()", mario.getLives(), 0);
+        test("mario.hasLives()", mario.hasLives(), false);
 
 
 
