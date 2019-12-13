@@ -14,8 +14,8 @@ Dans le fichier **src/app/App.java**, tu dois coder une fonction **isEqual** qui
 
 - Elle doit faire partie de la classe **App**.
 - Elle doit être **statique** et **privée**.
-- **ENTREE**: deux nombres entiers.
-- **SORTIE**: un booléen. Si les deux nombes fournis en entrée sont égaux, **true**. Sinon, **false**.
+- **ENTREE**: deux objets.
+- **SORTIE**: un booléen. Si les deux objets fournis en entrée sont égaux, **true**. Sinon, **false**.
 
 <details>
 <summary>Solution</summary>
@@ -56,7 +56,7 @@ Dans le fichier **src/app/App.java**, tu dois coder une fonction **test** qui r�
 
 - Elle doit faire partie de la classe **App**.
 - Elle doit être **statique** et **privée**.
-- **ENTREE**: une chaîne de caractère représentant l'appel effectué, un nombre entier représetant le résultat de cet appel, et un nombre entier représentant la valeur attendue.
+- **ENTREE**: une chaîne de caractère représentant l'appel effectué, un objet représetant le résultat de cet appel, et un objet représentant la valeur attendue.
 - **SORTIE**: aucune.
 - Si les deux valeurs sont égales, la fonction doit afficher: "L'appel  [...]  renvoie: [...]. (valeur attendue: [...]) C'est bon! ☑️", sinon: "L'appel  [...]  renvoie: [...]. (valeur attendue: [...])  Encore un coup des Illuminati... ❔".
 
