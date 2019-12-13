@@ -19,10 +19,10 @@ class Character {
     }
 
     public void takeHit() {
-        if (isBig == true) {
+        if (isBig) {
             isBig = false;
         } else {
-            lives -= 1;
+            loseLife();
         }
     }
 
@@ -40,6 +40,9 @@ class Character {
 
     public void loseLife() {
         lives --;
+        if (lives == 0) {
+            System.out.println("Game over");
+        }
     }
     
     public boolean hasLives() {
