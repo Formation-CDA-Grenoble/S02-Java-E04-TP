@@ -26,10 +26,6 @@ class Character {
     }
     
     public boolean hasLives() {
-        if (lives <= 0) {
-            return false;
-        } else {
-            return true;
-        }
+        return lives > 0;
     }
 }
