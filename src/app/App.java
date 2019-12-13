@@ -44,21 +44,21 @@ public class App {
         * =====================================================================
         * Décommente le code ci-dessous lorsque tu atteins cette partie
         */
-        // mario = createCharacter();
-        // test("mario.getIsBig()", mario.getIsBig(), false);
-        // System.out.println("Mario ramasse un champignon...");
-        // mario.pickUpMushroom();
-        // test("mario.getIsBig()", mario.getIsBig(), true);
-        // System.out.println("Mario ramasse un autre champignon...");
-        // mario.pickUpMushroom();
-        // test("mario.getIsBig()", mario.getIsBig(), true);
-        // System.out.println("Mario prend un coup...");
-        // mario.takeHit();
-        // test("mario.getIsBig()", mario.getIsBig(), false);
-        // System.out.println("Mario prend un autre coup...");
-        // mario.takeHit();
-        // test("mario.getIsBig()", mario.getIsBig(), false);
-        // test("mario.getLives()", mario.getLives(), 2);
+        mario = createCharacter();
+        test("mario.getIsBig()", mario.getIsBig(), false);
+        System.out.println("Mario ramasse un champignon...");
+        mario.pickUpMushroom();
+        test("mario.getIsBig()", mario.getIsBig(), true);
+        System.out.println("Mario ramasse un autre champignon...");
+        mario.pickUpMushroom();
+        test("mario.getIsBig()", mario.getIsBig(), true);
+        System.out.println("Mario prend un coup...");
+        mario.takeHit();
+        test("mario.getIsBig()", mario.getIsBig(), false);
+        System.out.println("Mario prend un autre coup...");
+        mario.takeHit();
+        test("mario.getIsBig()", mario.getIsBig(), false);
+        test("mario.getLives()", mario.getLives(), 2);
 
 
 
